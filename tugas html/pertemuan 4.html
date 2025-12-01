@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata dan Feedback</title>
+</head>
+<body>
+    <h1>Biodata Saya</h1>
+    
+    <table border="1">
+        <tr>
+            <th>Data</th>
+            <th>Informasi</th>
+        </tr>
+        <tr>
+            <td>Nama</td>
+            <td>fahmi</td>
+        </tr>
+        <tr>
+            <td>Tempat/Tanggal Lahir</td>
+            <td>nganjuk 11 april 2008</td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>Jl mastrip mangundikaran</td>
+        </tr>
+        <tr>
+            <td>No. Telepon</td>
+            <td>08123456789</td>
+        </tr>
+    </table>
+    
+    <hr>
+    
+    <h1>Formulir Feedback</h1>
+    
+    <form action="#" method="post">
+        <div>
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" required>
+        </div>
+        
+        <div>
+            <label for="email">Alamat Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div>
+            <label for="komentar">Komentar/Saran Anda</label>
+            <textarea id="komentar" name="komentar"></textarea>
+        </div>
+        
+        <div>
+            <label>Apakah Anda puas dengan materi ini?</label>
+            <div>
+                <input type="radio" id="puas_ya" name="kepuasan" value="ya" required>
+                <label for="puas_ya">Ya</label>
+            </div>
+            <div>
+                <input type="radio" id="puas_tidak" name="kepuasan" value="tidak">
+                <label for="puas_tidak">Tidak</label>
+            </div>
+        </div>
+        
+        <div>
+            <label>Topik yang ingin dipelajari selanjutnya</label>
+            <div>
+                <input type="checkbox" id="css" name="topik" value="css">
+                <label for="css">CSS Lanjutan</label>
+            </div>
+            <div>
+                <input type="checkbox" id="javascript" name="topik" value="javascript">
+                <label for="javascript">JavaScript Dasar</label>
+            </div>
+            <div>
+                <input type="checkbox" id="responsive" name="topik" value="responsive">
+                <label for="responsive">Web Design Responsif</label>
+            </div>
+            <div>
+                <input type="checkbox" id="framework" name="topik" value="framework">
+                <label for="framework">Framework Frontend</label>
+            </div>
+        </div>
+        
+        <div>
+            <input type="submit" value="Kirim Feedback">
+        </div>
+    </form>
+</body>
+</html>
